@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #F4F0F2; */
+    background: linear-gradient(to right,hsl(7.22,84.04%,63.14%) , hsl(254.53,52.49%,64.51%),hsl(193.62,88.84%,54.31%));;
+}
+.logo{
+    display: flex;
+}
+
+.logo h1{
+ color : #4c494d;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.shop img{
+    height: 5vh;
+    width: 50%;
+    margin: 1.5rem 1rem ;
+}
+
+.logo img{
+    height: 6.5vh;
+    width: 24%;
+    margin: 1.5rem 0.5rem 0rem 2rem;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap : 1rem;
+}
+
+.inputValue input{
+    margin-top: 10rem;
+    width: 25%;
+    height: 7vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btns{
+
+    display : flex;
+    gap: 1rem;
+    justify-content: center;
+    height: 5vh;
+    position: relative;
+}
+
+
+
+.Search{
+border : none;
+background: linear-gradient(to right,hsl(7.22,84.04%,63.14%) , hsl(254.53,52.49%,64.51%),hsl(193.62,88.84%,54.31%));;
+color : white;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 2px;
+font-weight: bold;
+width: 10%;
+cursor: pointer;
+
+}
+
+
+.remove{
+    background: url('../../assets/images/icon-cross.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    position : absolute;
+    margin-top : -3.6rem;
+    margin-left: 18rem;
+    
+  }
