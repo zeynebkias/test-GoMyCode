@@ -37,6 +37,5 @@ npm run dev
 - MongoDB 
 - Mongoose
 - Cors
-- 
 
 
